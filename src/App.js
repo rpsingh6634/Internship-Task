@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar  from './Components/Navbar/Navbar.js';
+import Slider from './Components/Slider/Slider.js'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Navbar/>
+     <center><h1 className="hone"><span className="span">Thousands</span> of lives changed</h1></center>
+      <center><h4 className="hfour">Hear it from the ones who have been on this journey already</h4></center>
+      <Slider/>
+      
+      </div>
   );
 }
 
